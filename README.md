@@ -1,5 +1,11 @@
 # datasound8k
 
+## Features Extraction
+- Pesquisei nos folds todos
+- Retirei os nomes dos audios todos (.wav)
+- Criei um caminho para cada audio através do sitio onde estou
+- 
+
 ## Ajuda para deepfool
 Dados pelo professor
 
