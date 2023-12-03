@@ -4,7 +4,7 @@
 - Pesquisei nos folds todos e retirei os nomes dos audios todos (.wav)
 - Criei um caminho para cada audio através do sitio onde o meu notebook se encontra
 - Fiz librosa.load() de cada audio. Automaticamente o audio vai ser resample, por default, para sr=22500 Hz
-- No entanto, o mais indicado para este caso seria um resample de sr=44100 Hz, uma vez que a tarefa exige uma representação mais detalhada das características do áudio para indicar a class do audio acertada
+- No entanto, o mais indicado para este caso seria um resample de sr=44100 Hz, uma vez que sample rates mais altas capturam detalhes mais finos do sinal, proporcionando uma representação mais precisa
 - Através da repetição do audio, extendo os audios, aqueles que tiverem um tempo menor que 4 segundos, para 4 segundos
 - De seguida, extraio as features, sendo elas:
     -  mfcc com parametro n_fcc=13
