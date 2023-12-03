@@ -13,17 +13,7 @@
     -  melspectrogram
     -  melspectrogram em decibéis
     -  melspectrogram com feature manipulation delta (ordem 1 e ordem 2)
-- Criei um ficheiro JSON para cada feature, com colunas adicionadas do dataset dado pelo dataset UrbanSound8K: file (nome do audio), fold (fold a que pertence o audio), salience (se o audio é background ou foreground), classID (id da class a que pertence o audio:
-  0 = air_conditioner;
-  1 = car_horn;
-  2 = children_playing;
-  3 = dog_bark;
-  4 = drilling;
-  5 = engine_idling;
-  6 = gun_shot;
-  7 = jackhammer;
-  8 = siren;
-  9 = street_music)
+- Criei um ficheiro JSON para cada feature, com colunas adicionadas do dataset dado pelo dataset UrbanSound8K: file (nome do audio), fold (fold a que pertence o audio), salience (se o audio é background ou foreground), classID (id da class a que pertence o audio)
 
 ## Ajuda para deepfool
 Dados pelo professor
